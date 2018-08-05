@@ -1,0 +1,37 @@
+{
+    "extends": [
+        "tslint:recommended"
+    ],
+    "rules": {
+        "no-unused-expression": true,
+        "no-duplicate-variable": true,
+        "curly": true,
+        "class-name": true,
+        "semicolon": true,
+        "triple-equals": true,
+        "object-literal-sort-keys": false,
+        "variable-name": false,
+        "no-console": true,
+        "max-line-length": true,
+        "indent": [
+            true,
+            "tabs",
+            4
+        ],
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ]
+    },
+    "options": {
+        "typeCheck": false
+    }
+}
