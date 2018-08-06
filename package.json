@@ -9,7 +9,7 @@
     "build:watch": "node ./node_modules/typescript/bin/tsc --watch",
     "webdriver:update": "node ./node_modules/webdriver-manager/bin/webdriver-manager update",
     "webdriver:start": "node ./node_modules/webdriver-manager/bin/webdriver-manager start --detach",
-    "e2e": "node ./node_modules/protractor/bin/protractor config.js",
+    "test": "node ./node_modules/protractor/bin/protractor config.js",
     "postinstall": "npm run build && npm run webdriver:update && npm run webdriver:start"
   },
   "dependencies": {
